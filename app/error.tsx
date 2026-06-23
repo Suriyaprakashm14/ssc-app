@@ -1,0 +1,2 @@
+"use client";
+export default function Error({ reset }: { error: Error; reset: () => void }) { return <main className="mx-auto max-w-md p-4"><section className="card"><p className="text-lg font-bold">War Room could not load</p><p className="mt-2 text-sm text-slate-400">A recoverable client error occurred.</p><button className="btn-primary mt-4" onClick={reset}>Try again</button></section></main>; }

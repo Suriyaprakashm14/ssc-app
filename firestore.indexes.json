@@ -1,0 +1,1 @@
+{"indexes":[{"collectionGroup":"tasks","queryScope":"COLLECTION","fields":[{"fieldPath":"userId","order":"ASCENDING"},{"fieldPath":"dueDate","order":"ASCENDING"}]},{"collectionGroup":"study_sessions","queryScope":"COLLECTION","fields":[{"fieldPath":"userId","order":"ASCENDING"},{"fieldPath":"startedAt","order":"DESCENDING"}]}],"fieldOverrides":[]}

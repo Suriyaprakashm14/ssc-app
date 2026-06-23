@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #080b12; color: #edf2f7; font-family: Arial, Helvetica, sans-serif; }
+button, input, select, textarea { font: inherit; }
+::selection { background: #75e6b2; color: #080b12; }
+@layer components {
+  .glass { @apply border border-white/10 bg-slate-900/75 shadow-glow backdrop-blur-xl; }
+  .card { @apply glass rounded-2xl p-4; }
+  .label { @apply text-[11px] font-semibold uppercase tracking-[.14em] text-slate-400; }
+  .input { @apply mt-1 w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2.5 text-sm outline-none focus:border-emerald-300; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-bold transition active:scale-95 disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply btn bg-emerald-300 text-slate-950 hover:bg-emerald-200; }
+  .btn-quiet { @apply btn bg-white/5 text-slate-100 hover:bg-white/10; }
+}

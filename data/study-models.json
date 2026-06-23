@@ -1,0 +1,6460 @@
+{
+  "examId": "ssc-cgl",
+  "studyPlan": {
+    "targetDailyHours": "5-6",
+    "planningHorizonDays": 180,
+    "totalEstimatedHours": 920.25
+  },
+  "topics": {
+    "analogy": {
+      "id": "analogy",
+      "topic": "Analogy",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "analogy-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "analogy-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "analogy-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "analogy-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "analogy-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "classification": {
+      "id": "classification",
+      "topic": "Classification",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "classification-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "classification-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "classification-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "classification-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "classification-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "series": {
+      "id": "series",
+      "topic": "Series",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "series-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "series-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "series-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "series-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "series-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "coding-decoding": {
+      "id": "coding-decoding",
+      "topic": "Coding Decoding",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "coding-decoding-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "coding-decoding-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "coding-decoding-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "coding-decoding-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "coding-decoding-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "blood-relation": {
+      "id": "blood-relation",
+      "topic": "Blood Relation",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "blood-relation-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "blood-relation-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "blood-relation-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "blood-relation-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "blood-relation-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "direction-sense": {
+      "id": "direction-sense",
+      "topic": "Direction Sense",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "direction-sense-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "direction-sense-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "direction-sense-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "direction-sense-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "direction-sense-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "ranking": {
+      "id": "ranking",
+      "topic": "Ranking",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "ranking-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "ranking-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "ranking-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "ranking-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "ranking-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "order-and-ranking": {
+      "id": "order-and-ranking",
+      "topic": "Order and Ranking",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "order-and-ranking-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "order-and-ranking-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "order-and-ranking-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "order-and-ranking-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "order-and-ranking-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "alphabet-test": {
+      "id": "alphabet-test",
+      "topic": "Alphabet Test",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "alphabet-test-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "alphabet-test-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "alphabet-test-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "alphabet-test-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "alphabet-test-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "word-formation": {
+      "id": "word-formation",
+      "topic": "Word Formation",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "word-formation-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "word-formation-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "word-formation-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "word-formation-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "word-formation-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "dictionary-order": {
+      "id": "dictionary-order",
+      "topic": "Dictionary Order",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "dictionary-order-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "dictionary-order-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "dictionary-order-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "dictionary-order-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "dictionary-order-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "missing-number": {
+      "id": "missing-number",
+      "topic": "Missing Number",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "missing-number-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "missing-number-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "missing-number-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "missing-number-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "missing-number-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "number-series": {
+      "id": "number-series",
+      "topic": "Number Series",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "number-series-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "number-series-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "number-series-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "number-series-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "number-series-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "letter-series": {
+      "id": "letter-series",
+      "topic": "Letter Series",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "letter-series-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "letter-series-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "letter-series-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "letter-series-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "letter-series-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "logical-venn-diagram": {
+      "id": "logical-venn-diagram",
+      "topic": "Logical Venn Diagram",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "logical-venn-diagram-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "logical-venn-diagram-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "logical-venn-diagram-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "logical-venn-diagram-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "logical-venn-diagram-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "syllogism": {
+      "id": "syllogism",
+      "topic": "Syllogism",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "syllogism-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "syllogism-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "syllogism-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "syllogism-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "syllogism-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "statement-and-conclusion": {
+      "id": "statement-and-conclusion",
+      "topic": "Statement and Conclusion",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "statement-and-conclusion-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "statement-and-conclusion-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "statement-and-conclusion-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "statement-and-conclusion-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "statement-and-conclusion-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "statement-and-assumption": {
+      "id": "statement-and-assumption",
+      "topic": "Statement and Assumption",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "statement-and-assumption-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "statement-and-assumption-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "statement-and-assumption-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "statement-and-assumption-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "statement-and-assumption-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "statement-and-argument": {
+      "id": "statement-and-argument",
+      "topic": "Statement and Argument",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "statement-and-argument-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "statement-and-argument-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "statement-and-argument-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "statement-and-argument-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "statement-and-argument-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "cause-and-effect": {
+      "id": "cause-and-effect",
+      "topic": "Cause and Effect",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "cause-and-effect-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "cause-and-effect-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "cause-and-effect-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "cause-and-effect-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "cause-and-effect-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "decision-making": {
+      "id": "decision-making",
+      "topic": "Decision Making",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "decision-making-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "decision-making-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "decision-making-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "decision-making-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "decision-making-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "judgement": {
+      "id": "judgement",
+      "topic": "Judgement",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "judgement-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "judgement-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "judgement-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "judgement-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "judgement-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "problem-solving": {
+      "id": "problem-solving",
+      "topic": "Problem Solving",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "problem-solving-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "problem-solving-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "problem-solving-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "problem-solving-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "problem-solving-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "puzzle": {
+      "id": "puzzle",
+      "topic": "Puzzle",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "puzzle-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "puzzle-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "puzzle-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "puzzle-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "puzzle-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "seating-arrangement": {
+      "id": "seating-arrangement",
+      "topic": "Seating Arrangement",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "seating-arrangement-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "seating-arrangement-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "seating-arrangement-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "seating-arrangement-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "seating-arrangement-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "mathematical-operations": {
+      "id": "mathematical-operations",
+      "topic": "Mathematical Operations",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "mathematical-operations-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "mathematical-operations-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "mathematical-operations-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "mathematical-operations-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "mathematical-operations-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "embedded-figures": {
+      "id": "embedded-figures",
+      "topic": "Embedded Figures",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "embedded-figures-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "embedded-figures-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "embedded-figures-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "embedded-figures-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "embedded-figures-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "mirror-image": {
+      "id": "mirror-image",
+      "topic": "Mirror Image",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "mirror-image-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "mirror-image-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "mirror-image-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "mirror-image-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "mirror-image-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "water-image": {
+      "id": "water-image",
+      "topic": "Water Image",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "water-image-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "water-image-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "water-image-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "water-image-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "water-image-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "paper-folding": {
+      "id": "paper-folding",
+      "topic": "Paper Folding",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "paper-folding-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "paper-folding-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "paper-folding-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "paper-folding-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "paper-folding-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "paper-cutting": {
+      "id": "paper-cutting",
+      "topic": "Paper Cutting",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "paper-cutting-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "paper-cutting-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "paper-cutting-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "paper-cutting-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "paper-cutting-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "figure-completion": {
+      "id": "figure-completion",
+      "topic": "Figure Completion",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "figure-completion-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "figure-completion-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "figure-completion-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "figure-completion-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "figure-completion-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "figure-counting": {
+      "id": "figure-counting",
+      "topic": "Figure Counting",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "figure-counting-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "figure-counting-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "figure-counting-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "figure-counting-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "figure-counting-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "cube-and-dice": {
+      "id": "cube-and-dice",
+      "topic": "Cube and Dice",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "cube-and-dice-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "cube-and-dice-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "cube-and-dice-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "cube-and-dice-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "cube-and-dice-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "non-verbal-reasoning": {
+      "id": "non-verbal-reasoning",
+      "topic": "Non Verbal Reasoning",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "non-verbal-reasoning-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "non-verbal-reasoning-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "non-verbal-reasoning-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "non-verbal-reasoning-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "non-verbal-reasoning-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "spatial-visualization": {
+      "id": "spatial-visualization",
+      "topic": "Spatial Visualization",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "spatial-visualization-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "spatial-visualization-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "spatial-visualization-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "spatial-visualization-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "spatial-visualization-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "spatial-orientation": {
+      "id": "spatial-orientation",
+      "topic": "Spatial Orientation",
+      "subjectId": "reasoning",
+      "estimatedHours": 6,
+      "models": [
+        {
+          "id": "spatial-orientation-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "spatial-orientation-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "spatial-orientation-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "spatial-orientation-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "spatial-orientation-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "number-system": {
+      "id": "number-system",
+      "topic": "Number System",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "number-system-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "number-system-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "number-system-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "number-system-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "number-system-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "simplification": {
+      "id": "simplification",
+      "topic": "Simplification",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "simplification-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "simplification-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "simplification-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "simplification-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "simplification-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "lcm-and-hcf": {
+      "id": "lcm-and-hcf",
+      "topic": "LCM and HCF",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "lcm-and-hcf-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "lcm-and-hcf-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "lcm-and-hcf-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "lcm-and-hcf-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "lcm-and-hcf-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "surds-and-indices": {
+      "id": "surds-and-indices",
+      "topic": "Surds and Indices",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "surds-and-indices-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "surds-and-indices-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "surds-and-indices-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "surds-and-indices-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "surds-and-indices-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "percentage": {
+      "id": "percentage",
+      "topic": "Percentage",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "percentage-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "percentage-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "percentage-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "percentage-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "percentage-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "ratio-and-proportion": {
+      "id": "ratio-and-proportion",
+      "topic": "Ratio and Proportion",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "ratio-and-proportion-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "ratio-and-proportion-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "ratio-and-proportion-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "ratio-and-proportion-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "ratio-and-proportion-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "partnership": {
+      "id": "partnership",
+      "topic": "Partnership",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "partnership-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "partnership-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "partnership-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "partnership-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "partnership-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "average": {
+      "id": "average",
+      "topic": "Average",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "average-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "average-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "average-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "average-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "average-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "mixture-and-alligation": {
+      "id": "mixture-and-alligation",
+      "topic": "Mixture and Alligation",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "mixture-and-alligation-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "mixture-and-alligation-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "mixture-and-alligation-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "mixture-and-alligation-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "mixture-and-alligation-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "profit-and-loss": {
+      "id": "profit-and-loss",
+      "topic": "Profit and Loss",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "profit-and-loss-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "profit-and-loss-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "profit-and-loss-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "profit-and-loss-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "profit-and-loss-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "discount": {
+      "id": "discount",
+      "topic": "Discount",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "discount-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "discount-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "discount-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "discount-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "discount-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "simple-interest": {
+      "id": "simple-interest",
+      "topic": "Simple Interest",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "simple-interest-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "simple-interest-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "simple-interest-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "simple-interest-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "simple-interest-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "compound-interest": {
+      "id": "compound-interest",
+      "topic": "Compound Interest",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "compound-interest-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "compound-interest-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "compound-interest-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "compound-interest-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "compound-interest-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "time-and-work": {
+      "id": "time-and-work",
+      "topic": "Time and Work",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "time-and-work-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "time-and-work-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "time-and-work-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "time-and-work-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "time-and-work-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "pipes-and-cisterns": {
+      "id": "pipes-and-cisterns",
+      "topic": "Pipes and Cisterns",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "pipes-and-cisterns-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "pipes-and-cisterns-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "pipes-and-cisterns-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "pipes-and-cisterns-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "pipes-and-cisterns-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "time-speed-distance": {
+      "id": "time-speed-distance",
+      "topic": "Time Speed Distance",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "time-speed-distance-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "time-speed-distance-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "time-speed-distance-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "time-speed-distance-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "time-speed-distance-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "boat-and-stream": {
+      "id": "boat-and-stream",
+      "topic": "Boat and Stream",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "boat-and-stream-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "boat-and-stream-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "boat-and-stream-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "boat-and-stream-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "boat-and-stream-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "train-problems": {
+      "id": "train-problems",
+      "topic": "Train Problems",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "train-problems-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "train-problems-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "train-problems-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "train-problems-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "train-problems-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "algebra": {
+      "id": "algebra",
+      "topic": "Algebra",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "algebra-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "algebra-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "algebra-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "algebra-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "algebra-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "linear-equations": {
+      "id": "linear-equations",
+      "topic": "Linear Equations",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "linear-equations-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "linear-equations-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "linear-equations-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "linear-equations-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "linear-equations-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "quadratic-equations": {
+      "id": "quadratic-equations",
+      "topic": "Quadratic Equations",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "quadratic-equations-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "quadratic-equations-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "quadratic-equations-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "quadratic-equations-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "quadratic-equations-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "geometry": {
+      "id": "geometry",
+      "topic": "Geometry",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "geometry-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "geometry-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "geometry-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "geometry-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "geometry-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "triangle": {
+      "id": "triangle",
+      "topic": "Triangle",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "triangle-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "triangle-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "triangle-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "triangle-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "triangle-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "circle": {
+      "id": "circle",
+      "topic": "Circle",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "circle-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "circle-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "circle-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "circle-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "circle-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "quadrilateral": {
+      "id": "quadrilateral",
+      "topic": "Quadrilateral",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "quadrilateral-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "quadrilateral-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "quadrilateral-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "quadrilateral-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "quadrilateral-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "polygon": {
+      "id": "polygon",
+      "topic": "Polygon",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "polygon-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "polygon-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "polygon-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "polygon-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "polygon-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "mensuration-2d": {
+      "id": "mensuration-2d",
+      "topic": "Mensuration 2D",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "mensuration-2d-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "mensuration-2d-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "mensuration-2d-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "mensuration-2d-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "mensuration-2d-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "mensuration-3d": {
+      "id": "mensuration-3d",
+      "topic": "Mensuration 3D",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "mensuration-3d-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "mensuration-3d-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "mensuration-3d-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "mensuration-3d-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "mensuration-3d-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "trigonometry": {
+      "id": "trigonometry",
+      "topic": "Trigonometry",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "trigonometry-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "trigonometry-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "trigonometry-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "trigonometry-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "trigonometry-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "heights-and-distances": {
+      "id": "heights-and-distances",
+      "topic": "Heights and Distances",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "heights-and-distances-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "heights-and-distances-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "heights-and-distances-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "heights-and-distances-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "heights-and-distances-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "coordinate-geometry": {
+      "id": "coordinate-geometry",
+      "topic": "Coordinate Geometry",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "coordinate-geometry-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "coordinate-geometry-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "coordinate-geometry-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "coordinate-geometry-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "coordinate-geometry-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "statistics": {
+      "id": "statistics",
+      "topic": "Statistics",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "statistics-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "statistics-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "statistics-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "statistics-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "statistics-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "probability": {
+      "id": "probability",
+      "topic": "Probability",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "probability-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "probability-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "probability-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "probability-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "probability-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "data-interpretation": {
+      "id": "data-interpretation",
+      "topic": "Data Interpretation",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "data-interpretation-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "data-interpretation-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "data-interpretation-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "data-interpretation-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "data-interpretation-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "table-di": {
+      "id": "table-di",
+      "topic": "Table DI",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "table-di-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "table-di-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "table-di-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "table-di-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "table-di-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "bar-graph": {
+      "id": "bar-graph",
+      "topic": "Bar Graph",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "bar-graph-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "bar-graph-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "bar-graph-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "bar-graph-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "bar-graph-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "pie-chart": {
+      "id": "pie-chart",
+      "topic": "Pie Chart",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "pie-chart-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "pie-chart-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "pie-chart-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "pie-chart-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "pie-chart-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "histogram": {
+      "id": "histogram",
+      "topic": "Histogram",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "histogram-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "histogram-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "histogram-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "histogram-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "histogram-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "line-graph": {
+      "id": "line-graph",
+      "topic": "Line Graph",
+      "subjectId": "quant",
+      "estimatedHours": 8.5,
+      "models": [
+        {
+          "id": "line-graph-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "line-graph-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 2,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "line-graph-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 2,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "line-graph-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "line-graph-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "reading-comprehension": {
+      "id": "reading-comprehension",
+      "topic": "Reading Comprehension",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "reading-comprehension-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "reading-comprehension-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "reading-comprehension-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "reading-comprehension-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "reading-comprehension-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "cloze-test": {
+      "id": "cloze-test",
+      "topic": "Cloze Test",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "cloze-test-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "cloze-test-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "cloze-test-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "cloze-test-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "cloze-test-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "fill-in-the-blanks": {
+      "id": "fill-in-the-blanks",
+      "topic": "Fill in the Blanks",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "fill-in-the-blanks-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "fill-in-the-blanks-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "fill-in-the-blanks-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "fill-in-the-blanks-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "fill-in-the-blanks-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "error-spotting": {
+      "id": "error-spotting",
+      "topic": "Error Spotting",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "error-spotting-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "error-spotting-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "error-spotting-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "error-spotting-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "error-spotting-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "sentence-improvement": {
+      "id": "sentence-improvement",
+      "topic": "Sentence Improvement",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "sentence-improvement-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "sentence-improvement-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "sentence-improvement-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "sentence-improvement-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "sentence-improvement-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "sentence-rearrangement": {
+      "id": "sentence-rearrangement",
+      "topic": "Sentence Rearrangement",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "sentence-rearrangement-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "sentence-rearrangement-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "sentence-rearrangement-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "sentence-rearrangement-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "sentence-rearrangement-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "para-jumbles": {
+      "id": "para-jumbles",
+      "topic": "Para Jumbles",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "para-jumbles-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "para-jumbles-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "para-jumbles-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "para-jumbles-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "para-jumbles-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "active-passive-voice": {
+      "id": "active-passive-voice",
+      "topic": "Active Passive Voice",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "active-passive-voice-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "active-passive-voice-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "active-passive-voice-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "active-passive-voice-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "active-passive-voice-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "direct-indirect-speech": {
+      "id": "direct-indirect-speech",
+      "topic": "Direct Indirect Speech",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "direct-indirect-speech-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "direct-indirect-speech-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "direct-indirect-speech-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "direct-indirect-speech-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "direct-indirect-speech-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "synonyms": {
+      "id": "synonyms",
+      "topic": "Synonyms",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "synonyms-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "synonyms-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "synonyms-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "synonyms-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "synonyms-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "antonyms": {
+      "id": "antonyms",
+      "topic": "Antonyms",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "antonyms-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "antonyms-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "antonyms-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "antonyms-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "antonyms-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "one-word-substitution": {
+      "id": "one-word-substitution",
+      "topic": "One Word Substitution",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "one-word-substitution-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "one-word-substitution-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "one-word-substitution-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "one-word-substitution-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "one-word-substitution-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "idioms-and-phrases": {
+      "id": "idioms-and-phrases",
+      "topic": "Idioms and Phrases",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "idioms-and-phrases-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "idioms-and-phrases-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "idioms-and-phrases-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "idioms-and-phrases-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "idioms-and-phrases-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "spelling-correction": {
+      "id": "spelling-correction",
+      "topic": "Spelling Correction",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "spelling-correction-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "spelling-correction-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "spelling-correction-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "spelling-correction-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "spelling-correction-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "vocabulary": {
+      "id": "vocabulary",
+      "topic": "Vocabulary",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "vocabulary-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "vocabulary-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "vocabulary-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "vocabulary-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "vocabulary-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "grammar": {
+      "id": "grammar",
+      "topic": "Grammar",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "grammar-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "grammar-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "grammar-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "grammar-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "grammar-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "noun": {
+      "id": "noun",
+      "topic": "Noun",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "noun-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "noun-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "noun-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "noun-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "noun-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "pronoun": {
+      "id": "pronoun",
+      "topic": "Pronoun",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "pronoun-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "pronoun-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "pronoun-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "pronoun-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "pronoun-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "verb": {
+      "id": "verb",
+      "topic": "Verb",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "verb-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "verb-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "verb-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "verb-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "verb-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "adjective": {
+      "id": "adjective",
+      "topic": "Adjective",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "adjective-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "adjective-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "adjective-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "adjective-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "adjective-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "adverb": {
+      "id": "adverb",
+      "topic": "Adverb",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "adverb-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "adverb-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "adverb-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "adverb-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "adverb-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "preposition": {
+      "id": "preposition",
+      "topic": "Preposition",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "preposition-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "preposition-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "preposition-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "preposition-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "preposition-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "conjunction": {
+      "id": "conjunction",
+      "topic": "Conjunction",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "conjunction-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "conjunction-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "conjunction-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "conjunction-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "conjunction-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "tenses": {
+      "id": "tenses",
+      "topic": "Tenses",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "tenses-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "tenses-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "tenses-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "tenses-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "tenses-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "subject-verb-agreement": {
+      "id": "subject-verb-agreement",
+      "topic": "Subject Verb Agreement",
+      "subjectId": "english",
+      "estimatedHours": 6.25,
+      "models": [
+        {
+          "id": "subject-verb-agreement-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 1.25,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "subject-verb-agreement-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1.5,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "subject-verb-agreement-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1.5,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "subject-verb-agreement-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1.25,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "subject-verb-agreement-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "current-affairs": {
+      "id": "current-affairs",
+      "topic": "Current Affairs",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "current-affairs-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "current-affairs-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "current-affairs-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "current-affairs-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "current-affairs-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "indian-history": {
+      "id": "indian-history",
+      "topic": "Indian History",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "indian-history-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "indian-history-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "indian-history-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "indian-history-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "indian-history-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "ancient-history": {
+      "id": "ancient-history",
+      "topic": "Ancient History",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "ancient-history-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "ancient-history-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "ancient-history-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "ancient-history-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "ancient-history-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "medieval-history": {
+      "id": "medieval-history",
+      "topic": "Medieval History",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "medieval-history-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "medieval-history-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "medieval-history-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "medieval-history-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "medieval-history-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "modern-history": {
+      "id": "modern-history",
+      "topic": "Modern History",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "modern-history-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "modern-history-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "modern-history-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "modern-history-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "modern-history-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "art-and-culture": {
+      "id": "art-and-culture",
+      "topic": "Art and Culture",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "art-and-culture-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "art-and-culture-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "art-and-culture-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "art-and-culture-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "art-and-culture-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "indian-polity": {
+      "id": "indian-polity",
+      "topic": "Indian Polity",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "indian-polity-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "indian-polity-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "indian-polity-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "indian-polity-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "indian-polity-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "constitution": {
+      "id": "constitution",
+      "topic": "Constitution",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "constitution-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "constitution-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "constitution-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "constitution-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "constitution-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "id": "governance",
+      "topic": "Governance",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "governance-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "governance-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "governance-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "governance-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "governance-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "indian-economy": {
+      "id": "indian-economy",
+      "topic": "Indian Economy",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "indian-economy-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "indian-economy-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "indian-economy-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "indian-economy-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "indian-economy-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "banking": {
+      "id": "banking",
+      "topic": "Banking",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "banking-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "banking-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "banking-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "banking-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "banking-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "budget": {
+      "id": "budget",
+      "topic": "Budget",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "budget-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "budget-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "budget-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "budget-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "budget-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "geography": {
+      "id": "geography",
+      "topic": "Geography",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "geography-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "geography-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "geography-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "geography-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "geography-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "indian-geography": {
+      "id": "indian-geography",
+      "topic": "Indian Geography",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "indian-geography-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "indian-geography-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "indian-geography-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "indian-geography-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "indian-geography-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "world-geography": {
+      "id": "world-geography",
+      "topic": "World Geography",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "world-geography-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "world-geography-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "world-geography-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "world-geography-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "world-geography-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "environment": {
+      "id": "environment",
+      "topic": "Environment",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "environment-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "environment-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "environment-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "environment-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "environment-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "ecology": {
+      "id": "ecology",
+      "topic": "Ecology",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "ecology-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "ecology-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "ecology-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "ecology-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "ecology-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "physics": {
+      "id": "physics",
+      "topic": "Physics",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "physics-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "physics-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "physics-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "physics-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "physics-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "chemistry": {
+      "id": "chemistry",
+      "topic": "Chemistry",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "chemistry-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "chemistry-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "chemistry-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "chemistry-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "chemistry-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "biology": {
+      "id": "biology",
+      "topic": "Biology",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "biology-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "biology-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "biology-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "biology-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "biology-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "science-and-technology": {
+      "id": "science-and-technology",
+      "topic": "Science and Technology",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "science-and-technology-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "science-and-technology-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "science-and-technology-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "science-and-technology-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "science-and-technology-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "space-technology": {
+      "id": "space-technology",
+      "topic": "Space Technology",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "space-technology-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "space-technology-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "space-technology-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "space-technology-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "space-technology-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "sports": {
+      "id": "sports",
+      "topic": "Sports",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "sports-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "sports-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "sports-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "sports-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "sports-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "books-and-authors": {
+      "id": "books-and-authors",
+      "topic": "Books and Authors",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "books-and-authors-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "books-and-authors-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "books-and-authors-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "books-and-authors-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "books-and-authors-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "awards-and-honours": {
+      "id": "awards-and-honours",
+      "topic": "Awards and Honours",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "awards-and-honours-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "awards-and-honours-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "awards-and-honours-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "awards-and-honours-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "awards-and-honours-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "important-days": {
+      "id": "important-days",
+      "topic": "Important Days",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "important-days-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "important-days-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "important-days-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "important-days-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "important-days-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "organizations": {
+      "id": "organizations",
+      "topic": "Organizations",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "organizations-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "organizations-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "organizations-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "organizations-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "organizations-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "government-schemes": {
+      "id": "government-schemes",
+      "topic": "Government Schemes",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "government-schemes-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "government-schemes-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "government-schemes-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "government-schemes-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "government-schemes-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "static-gk": {
+      "id": "static-gk",
+      "topic": "Static GK",
+      "subjectId": "general_awareness",
+      "estimatedHours": 4.5,
+      "models": [
+        {
+          "id": "static-gk-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "static-gk-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "static-gk-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "static-gk-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "static-gk-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.75,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "computer-fundamentals": {
+      "id": "computer-fundamentals",
+      "topic": "Computer Fundamentals",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "computer-fundamentals-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "computer-fundamentals-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "computer-fundamentals-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "computer-fundamentals-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "computer-fundamentals-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "hardware": {
+      "id": "hardware",
+      "topic": "Hardware",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "hardware-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "hardware-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "hardware-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "hardware-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "hardware-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "software": {
+      "id": "software",
+      "topic": "Software",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "software-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "software-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "software-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "software-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "software-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "operating-system": {
+      "id": "operating-system",
+      "topic": "Operating System",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "operating-system-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "operating-system-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "operating-system-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "operating-system-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "operating-system-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "windows": {
+      "id": "windows",
+      "topic": "Windows",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "windows-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "windows-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "windows-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "windows-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "windows-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "ms-word": {
+      "id": "ms-word",
+      "topic": "MS Word",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "ms-word-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "ms-word-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "ms-word-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "ms-word-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "ms-word-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "ms-excel": {
+      "id": "ms-excel",
+      "topic": "MS Excel",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "ms-excel-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "ms-excel-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "ms-excel-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "ms-excel-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "ms-excel-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "ms-powerpoint": {
+      "id": "ms-powerpoint",
+      "topic": "MS PowerPoint",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "ms-powerpoint-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "ms-powerpoint-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "ms-powerpoint-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "ms-powerpoint-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "ms-powerpoint-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "ms-office": {
+      "id": "ms-office",
+      "topic": "MS Office",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "ms-office-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "ms-office-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "ms-office-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "ms-office-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "ms-office-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "internet": {
+      "id": "internet",
+      "topic": "Internet",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "internet-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "internet-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "internet-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "internet-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "internet-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "email": {
+      "id": "email",
+      "topic": "Email",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "email-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "email-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "email-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "email-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "email-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "networking": {
+      "id": "networking",
+      "topic": "Networking",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "networking-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "networking-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "networking-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "networking-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "networking-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "database-basics": {
+      "id": "database-basics",
+      "topic": "Database Basics",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "database-basics-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "database-basics-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "database-basics-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "database-basics-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "database-basics-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "computer-security": {
+      "id": "computer-security",
+      "topic": "Computer Security",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "computer-security-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "computer-security-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "computer-security-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "computer-security-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "computer-security-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "cyber-security": {
+      "id": "cyber-security",
+      "topic": "Cyber Security",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "cyber-security-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "cyber-security-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "cyber-security-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "cyber-security-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "cyber-security-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "virus-and-malware": {
+      "id": "virus-and-malware",
+      "topic": "Virus and Malware",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "virus-and-malware-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "virus-and-malware-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "virus-and-malware-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "virus-and-malware-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "virus-and-malware-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "input-devices": {
+      "id": "input-devices",
+      "topic": "Input Devices",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "input-devices-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "input-devices-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "input-devices-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "input-devices-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "input-devices-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "output-devices": {
+      "id": "output-devices",
+      "topic": "Output Devices",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "output-devices-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "output-devices-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "output-devices-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "output-devices-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "output-devices-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "memory-devices": {
+      "id": "memory-devices",
+      "topic": "Memory Devices",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "memory-devices-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "memory-devices-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "memory-devices-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "memory-devices-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "memory-devices-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    },
+    "generations-of-computer": {
+      "id": "generations-of-computer",
+      "topic": "Generations of Computer",
+      "subjectId": "computer",
+      "estimatedHours": 4,
+      "models": [
+        {
+          "id": "generations-of-computer-beginner",
+          "name": "Beginner Models",
+          "estimatedHours": 0.75,
+          "difficulty": "beginner",
+          "priority": "high"
+        },
+        {
+          "id": "generations-of-computer-intermediate",
+          "name": "Intermediate Models",
+          "estimatedHours": 1,
+          "difficulty": "intermediate",
+          "priority": "high"
+        },
+        {
+          "id": "generations-of-computer-advanced",
+          "name": "Advanced Models",
+          "estimatedHours": 1,
+          "difficulty": "advanced",
+          "priority": "medium"
+        },
+        {
+          "id": "generations-of-computer-pyq",
+          "name": "PYQ Practice",
+          "estimatedHours": 0.75,
+          "difficulty": "intermediate",
+          "priority": "critical"
+        },
+        {
+          "id": "generations-of-computer-sectional-mock",
+          "name": "Sectional Mock",
+          "estimatedHours": 0.5,
+          "difficulty": "advanced",
+          "priority": "high"
+        }
+      ]
+    }
+  }
+}
