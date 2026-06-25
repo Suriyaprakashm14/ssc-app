@@ -1,6 +1,0 @@
-.env
-.env.local
-.env.*.local
-*-firebase-adminsdk-*.json
-.next/
-node_modules/
