@@ -38,7 +38,13 @@ type State = {
 
 const idleTimer = (): Timer => ({ state: "idle", effectiveSeconds: 0, pauseSeconds: 0, breakSeconds: 0 });
 const emptyStudyState = (): StudyStateData => ({ mission: null, tasks: [], sessions: [], workSessions: [], mocks: [], distractions: [], daily: { date: dateKey(), distractionMinutes: 0, overthinkingMinutes: 0 }, timer: idleTimer() });
-const normalizeUserData = (data: StudyStateData, userId: string): StudyStateData => ({ ...data, tasks: data.tasks.map((task) => ({ ...task, userId })), sessions: data.sessions.map((session) => ({ ...session, userId })), distractions: data.distractions.map((distraction) => ({ ...distraction, userId })) });
+const normalizeUserData = (data: StudyStateData, userId: string): StudyStateData => ({
+  ...data,
+  tasks: data.tasks.map((task) => ({ ...task, userId })),
+  sessions: data.sessions.map((session) => ({ ...session, userId })),
+  workSessions: data.workSessions.map((work) => ({ ...work, userId })),
+  distractions: data.distractions.map((distraction) => ({ ...distraction, userId })),
+});
 const settleTimer = (timer: Timer, now = Date.now()): Timer => {
   const elapsed = timer.lastChangedAt ? Math.max(0, Math.floor((now - timer.lastChangedAt) / 1000)) : 0;
   const effectiveSeconds = timer.effectiveSeconds ?? 0;
@@ -58,14 +64,14 @@ export const useWarRoomStore = create<State>()(persist((set, get) => ({
   hydrateFromCloud: (data, userId) => set({ ...normalizeUserData(data, userId), ownerId: userId, cloudReady: true }),
   toStudyStateData: () => {
     const state = get();
-    return { mission: state.mission, tasks: state.tasks, sessions: state.sessions, workSessions: state.workSessions, mocks: state.mocks, distractions: state.distractions, daily: state.daily, timer: state.timer };
+    return { mission: state.mission, tasks: state.tasks, sessions: state.sessions, workSessions: state.workSessions, mocks: state.mocks, distractions: state.distractions, daily: state.daily, timer: settleTimer(state.timer) };
   },
   configureExam: (exam) => set((state) => ({
     exam,
     mission: state.mission ?? { examId: exam.id, examName: exam.name, examDate: "2026-09-15", targetHours: 800, startedAt: new Date().toISOString() },
     tasks: state.tasks.length ? state.tasks : seedTasks(exam, state.ownerId ?? "local"),
   })),
-  setMission: (mission) => set((state) => ({ mission, tasks: state.exam ? seedTasks(state.exam) : state.tasks, timer: idleTimer() })),
+  setMission: (mission) => set((state) => ({ mission, tasks: state.exam ? seedTasks(state.exam, state.ownerId ?? "local") : state.tasks, timer: idleTimer() })),
   updateTask: (id, status) => set((state) => {
     const task = state.tasks.find((item) => item.id === id);
     const tasks = state.tasks.map((item) => item.id === id ? { ...item, status, completedAt: status === "completed" ? new Date().toISOString() : undefined } : item);
@@ -99,7 +105,7 @@ export const useWarRoomStore = create<State>()(persist((set, get) => ({
   addMock: (mock) => set((state) => ({ mocks: [mock, ...state.mocks] })),
   addDistraction: (log) => set((state) => ({ distractions: [{ ...log, id: createId(), userId: state.ownerId ?? "local", createdAt: new Date().toISOString() }, ...state.distractions], daily: { ...state.daily, distractionMinutes: state.daily.distractionMinutes + log.durationMinutes } })),
   updateDaily: (daily) => set((state) => ({ daily: { ...state.daily, ...daily } })),
-  startWork: (workload, notes) => set((state) => state.workSessions.some((work) => !work.logoutAt) ? {} : ({ workSessions: [{ id: createId(), userId: "local", loginAt: new Date().toISOString(), workload, notes }, ...state.workSessions] })),
+  startWork: (workload, notes) => set((state) => state.workSessions.some((work) => !work.logoutAt) ? {} : ({ workSessions: [{ id: createId(), userId: state.ownerId ?? "local", loginAt: new Date().toISOString(), workload, notes }, ...state.workSessions] })),
   endWork: () => {
     const state = get();
     const activeWork = state.workSessions.find((work) => !work.logoutAt);
