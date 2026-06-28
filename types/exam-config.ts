@@ -62,5 +62,5 @@ export interface ExamConfig {
   version: string;
   syllabus: SscSyllabus;
   studyModels: StudyModels;
-  seededAt: Timestamp;
+  seededAt?: Timestamp;
 }

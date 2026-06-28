@@ -37,6 +37,7 @@ export const buildSSCExam = (config: ExamConfig): ExamDefinition => ({
 
 export const dateKey = (date = new Date()) => date.toISOString().slice(0, 10);
 export const daysBetween = (from: Date, to: Date) => Math.max(0, Math.ceil((to.getTime() - from.getTime()) / 86_400_000));
+export const minutesUntil = (to: string, from = new Date()) => Math.max(0, Math.ceil((new Date(to).getTime() - from.getTime()) / 60_000));
 
 export const findTopic = (exam: ExamDefinition, topicId: string): { subject: Subject; topic: Topic } | undefined => {
   for (const subject of exam.subjects) {
@@ -89,17 +90,34 @@ export const createRevisionTasks = (task: StudyTask, exam: ExamDefinition): Stud
   source: "revision",
 }));
 
-export const seedTasks = (exam: ExamDefinition, userId = "local"): StudyTask[] => exam.subjects.flatMap((subject) => subject.topics.slice(0, 2).flatMap((topic, topicIndex) => (["theory", "practice", "pyq"] as const).map((type, typeIndex) => ({
-  id: `${subject.id}-${topic.id}-${type}`,
-  userId,
-  subjectId: subject.id,
-  topicId: topic.id,
-  title: exam.taskTemplates[type].replace("{topic}", topic.name).replace("{subject}", subject.name),
-  type,
-  status: "pending",
-  priority: topicIndex === 0 ? "high" : "medium",
-  plannedMinutes: type === "theory" ? 60 : 45,
-  dueDate: dateKey(new Date(Date.now() + (topicIndex * 3 + typeIndex) * 86_400_000)),
-  createdAt: new Date().toISOString(),
-  source: "engine",
-}))));
+export const estimateExamHours = (exam: ExamDefinition) => exam.subjects.reduce((total, subject) => total + subject.topics.reduce((sum, topic) => sum + topic.estimatedHours, 0), 0);
+
+export const seedTasks = (exam: ExamDefinition, userId = "local"): StudyTask[] => {
+  const rotatedTopics = Array.from({ length: Math.max(...exam.subjects.map((subject) => subject.topics.length), 0) }).flatMap((_, topicIndex) =>
+    exam.subjects.flatMap((subject) => {
+      const topic = subject.topics[topicIndex];
+      return topic ? [{ subject, topic, topicIndex }] : [];
+    }),
+  );
+
+  return rotatedTopics.flatMap(({ subject, topic, topicIndex }, rotationIndex) => (["theory", "practice", "pyq"] as const).map((type, typeIndex) => ({
+    id: `${subject.id}-${topic.id}-${type}`,
+    userId,
+    subjectId: subject.id,
+    topicId: topic.id,
+    title: exam.taskTemplates[type].replace("{topic}", topic.name).replace("{subject}", subject.name),
+    type,
+    status: "pending",
+    priority: topicIndex < 2 ? "high" : topic.models.some((model) => model.priority === "critical") ? "high" : "medium",
+    plannedMinutes: type === "theory" ? 60 : 45,
+    dueDate: dateKey(new Date(Date.now() + (rotationIndex * 2 + typeIndex) * 86_400_000)),
+    createdAt: new Date().toISOString(),
+    source: "engine",
+  })));
+};
+
+export const mergeSeedTasks = (current: StudyTask[], exam: ExamDefinition, userId = "local") => {
+  const existingIds = new Set(current.map((task) => task.id));
+  const additions = seedTasks(exam, userId).filter((task) => !existingIds.has(task.id));
+  return additions.length ? [...current, ...additions] : current;
+};

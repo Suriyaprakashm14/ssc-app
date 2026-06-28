@@ -2,7 +2,7 @@
 
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { createRevisionTasks, dateKey, seedTasks } from "@/lib/exam-engine";
+import { createRevisionTasks, dateKey, mergeSeedTasks, seedTasks } from "@/lib/exam-engine";
 import { createId } from "@/lib/id";
 import type { DailyLog, DistractionLog, ExamDefinition, Mission, MockTest, SessionState, StudySession, StudyTask, TaskStatus, WorkSession } from "@/types";
 import type { StudyStateData, TimerState } from "@/types/study-state";
@@ -25,7 +25,7 @@ type State = {
   toStudyStateData: () => StudyStateData;
   configureExam: (exam: ExamDefinition) => void;
   setMission: (mission: Mission) => void;
-  updateTask: (id: string, status: TaskStatus) => void;
+  updateTask: (id: string, status: TaskStatus) => boolean;
   startTimer: (task: StudyTask) => boolean;
   setTimerState: (state: SessionState) => void;
   endTask: () => boolean;
@@ -68,16 +68,28 @@ export const useWarRoomStore = create<State>()(persist((set, get) => ({
   },
   configureExam: (exam) => set((state) => ({
     exam,
-    mission: state.mission ?? { examId: exam.id, examName: exam.name, examDate: "2026-09-15", targetHours: 800, startedAt: new Date().toISOString() },
-    tasks: state.tasks.length ? state.tasks : seedTasks(exam, state.ownerId ?? "local"),
+    mission: state.mission ?? { examId: exam.id, examName: exam.name, examDate: "2026-09-15", targetHours: 6, startedAt: new Date().toISOString() },
+    tasks: state.tasks.length ? mergeSeedTasks(state.tasks, exam, state.ownerId ?? "local") : seedTasks(exam, state.ownerId ?? "local"),
   })),
-  setMission: (mission) => set((state) => ({ mission, tasks: state.exam ? seedTasks(state.exam, state.ownerId ?? "local") : state.tasks, timer: idleTimer() })),
-  updateTask: (id, status) => set((state) => {
-    const task = state.tasks.find((item) => item.id === id);
-    const tasks = state.tasks.map((item) => item.id === id ? { ...item, status, completedAt: status === "completed" ? new Date().toISOString() : undefined } : item);
-    if (status !== "completed" || !task || task.type === "revision" || !state.exam) return { tasks };
-    return { tasks: [...tasks, ...createRevisionTasks({ ...task, status }, state.exam)] };
-  }),
+  setMission: (mission) => set((state) => ({ mission, tasks: state.exam ? mergeSeedTasks(state.tasks, state.exam, state.ownerId ?? "local") : state.tasks, timer: idleTimer() })),
+  updateTask: (id, status) => {
+    const current = get();
+    const task = current.tasks.find((item) => item.id === id);
+    if (!task) return false;
+    if (status === "completed") {
+      const hasActiveWork = current.workSessions.some((work) => !work.logoutAt);
+      const studiedSeconds = current.sessions
+        .filter((session) => session.taskId === id)
+        .reduce((total, session) => total + session.effectiveSeconds, 0);
+      if (!hasActiveWork || studiedSeconds < 300) return false;
+    }
+    set((state) => {
+      const tasks = state.tasks.map((item) => item.id === id ? { ...item, status, completedAt: status === "completed" ? new Date().toISOString() : undefined } : item);
+      if (status !== "completed" || task.type === "revision" || !state.exam) return { tasks };
+      return { tasks: [...tasks, ...createRevisionTasks({ ...task, status }, state.exam)] };
+    });
+    return true;
+  },
   startTimer: (task) => {
     const state = get();
     const hasActiveWork = state.workSessions.some((work) => !work.logoutAt);
@@ -98,7 +110,7 @@ export const useWarRoomStore = create<State>()(persist((set, get) => ({
       const timer = settleTimer(current.timer);
       const task = current.tasks.find((item) => item.id === timer.taskId);
       if (!task) return { timer: idleTimer() };
-      return { timer: idleTimer(), sessions: [{ id: createId(), userId: current.ownerId ?? "local", subjectId: task.subjectId, topicId: task.topicId, state: "idle", startedAt: new Date(timer.startedAt ?? Date.now()).toISOString(), endedAt: new Date().toISOString(), effectiveSeconds: timer.effectiveSeconds, pauseSeconds: timer.pauseSeconds, breakSeconds: timer.breakSeconds, studySource: "War Room task timer" }, ...current.sessions] };
+      return { timer: idleTimer(), sessions: [{ id: createId(), userId: current.ownerId ?? "local", taskId: task.id, subjectId: task.subjectId, topicId: task.topicId, state: "idle", startedAt: new Date(timer.startedAt ?? Date.now()).toISOString(), endedAt: new Date().toISOString(), effectiveSeconds: timer.effectiveSeconds, pauseSeconds: timer.pauseSeconds, breakSeconds: timer.breakSeconds, studySource: "War Room task timer" }, ...current.sessions] };
     });
     return true;
   },
