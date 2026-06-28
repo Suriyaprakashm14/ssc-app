@@ -1,6 +1,6 @@
 "use client";
 
-import { KeyRound, LogIn, UserPlus } from "lucide-react";
+import { Eye, EyeOff, KeyRound, LogIn, UserPlus } from "lucide-react";
 import { useState } from "react";
 import { loginWithEmail, loginWithGoogle, registerWithEmail, requestPasswordReset } from "@/services/auth-service";
 
@@ -28,6 +28,7 @@ export function LoginForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState<string>();
   const [notice, setNotice] = useState<string>();
   const [loading, setLoading] = useState(false);
@@ -85,7 +86,12 @@ export function LoginForm() {
 
         {mode !== "reset" && <label className="block">
           <span className="label">Password</span>
-          <input className="input" type="password" autoComplete={mode === "register" ? "new-password" : "current-password"} minLength={6} placeholder="At least 6 characters" value={password} onChange={(event) => setPassword(event.target.value)} required />
+          <span className="relative block">
+            <input className="input pr-12" type={showPassword ? "text" : "password"} autoComplete={mode === "register" ? "new-password" : "current-password"} minLength={6} placeholder="At least 6 characters" value={password} onChange={(event) => setPassword(event.target.value)} required />
+            <button aria-label={showPassword ? "Hide password" : "Show password"} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-100" type="button" onClick={() => setShowPassword((value) => !value)}>
+              {showPassword ? <EyeOff size={17} /> : <Eye size={17} />}
+            </button>
+          </span>
         </label>}
 
         {error && <p className="text-xs leading-5 text-rose-300">{error}</p>}
